@@ -1,0 +1,54 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "Project for react learning with javascript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build",
+    "start": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolasnajera/react-learning.git"
+  },
+  "keywords": [
+    "react",
+    "learning",
+    "javascript"
+  ],
+  "author": "Rolas Najera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolasnajera/react-learning/issues"
+  },
+  "homepage": "https://github.com/rolasnajera/react-learning#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "babel-jest": "^28.1.3",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "parcel": "^2.6.2",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
